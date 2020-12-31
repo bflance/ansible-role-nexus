@@ -1,7 +1,7 @@
 ---
 - name: Create nexus user
   user:
-    name: nexus
+    name: "{{ sansible_nexus_user }}"
     state: present
     comment: Nexus user
 
