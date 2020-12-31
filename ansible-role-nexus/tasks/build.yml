@@ -1,9 +1,8 @@
 ---
 - name: Create nexus user
-    user: "{{ sansible_nexus_user }}"
-    group: "{{ sansible_nexus_user }}"
-    comment: Nexus user
-
+  user: "{{ sansible_nexus_user }}"
+  group: "{{ sansible_nexus_user }}"
+  comment: Nexus user
 
 - name: Create Nexus directories
   become: yes
