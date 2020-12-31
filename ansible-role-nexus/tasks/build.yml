@@ -1,8 +1,8 @@
 ---
 - name: Create nexus user
-    user: "{{ sansible_nexus_user }}""
+    user: "{{ sansible_nexus_user }}"
     group: "{{ sansible_nexus_user }}"
-    state: exists
+    comment: Nexus 
 
 - name: Add the user 'johnd' with a specific uid and a primary group of 'admin'
   user:
