@@ -2,6 +2,7 @@
 - name: Create nexus user
   user:
     name: nexus
+    state: present
     comment: Nexus user
 
 - name: Create Nexus directories
