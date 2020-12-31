@@ -3,6 +3,13 @@
     user: name="{{ sansible_nexus_user }}
     state: exists
 
+- name: Add the user 'johnd' with a specific uid and a primary group of 'admin'
+  user:
+    name: johnd
+    comment: John Doe
+    uid: 1040
+    group: admin
+
 
 - name: Create Nexus directories
   become: yes
