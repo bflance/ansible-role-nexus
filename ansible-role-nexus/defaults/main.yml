@@ -1,7 +1,7 @@
 ---
-
+sansible_nexus_user: nexus
 sansible_nexus_context_path: /
-sansible_nexus_configuration_admin_password: pleasechangeme
+sansible_nexus_configuration_admin_password: admin123
 sansible_nexus_configuration_allow_anonymous: no
 sansible_nexus_configuration_base_url: ~
 sansible_nexus_configuration_default_admin_password: admin123
@@ -27,6 +27,7 @@ sansible_nexus_configuration_s3_blobstores: []
 #   expiration: 3
 #   name: ~
 #   region: ~
+
 sansible_nexus_dependencies_java_install: yes
 sansible_nexus_dependencies_java_version: 8
 sansible_nexus_directory_data: "/home/{{ sansible_nexus_user }}/sonatype-work/nexus3"
