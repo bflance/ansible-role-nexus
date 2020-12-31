@@ -1,6 +1,6 @@
 ---
 - name: Create nexus user
-    user: nexus
+    user:nexus
     comment: Nexus user
 
 - name: Create Nexus directories
