@@ -1,6 +1,6 @@
 ---
 - name: Create nexus user
-  user: "{{ sansible_nexus_user }}"
+  user: nexus
   group: "{{ sansible_nexus_user }}"
   comment: Nexus user
 
