@@ -1,6 +1,7 @@
 ---
 - name: Create nexus user
-    user: name="{{ sansible_nexus_user }} s
+    user: name="{{ sansible_nexus_user }}
+    state: exists
 
 
 - name: Create Nexus directories
