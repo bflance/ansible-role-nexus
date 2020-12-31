@@ -1,6 +1,6 @@
 ---
 - name: Create nexus user
-    user: {{ sansible_nexus_user }}
+    user: "{{ sansible_nexus_user }}
     group: admin
     state: exists
 
